@@ -80,8 +80,18 @@ h2 {
 
 /* Estilos responsivos */
 @media (max-width: 768px) {
+    .background-color-Sobre {
+        padding: 20px;
+    }
+
+    .main-sobre {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .Text-sobre {
         width: 100%;
+        text-align: center;
     }
 
     .Text-sobre h2 {
@@ -96,21 +106,8 @@ h2 {
         font-size: 0.9em;
     }
 
-    .main-sobre {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .Text-sobre {
-        text-align: center;
-    }
-
-    .Text-sobre h5 {
-        font-size: 18px;
-    }
-
-    .Text-sobre p {
-        font-size: 14px;
+    .background-color-Sobre img {
+        max-width: 100%;
     }
 }
 
