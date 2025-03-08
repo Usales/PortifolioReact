@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Bahnschrift', sans-serif;
+    box-sizing: border-box;
+}
+
+h1{
+    color: #fff;
+    margin: 20px ;
+    font-size: 60px;
+}
+
+h4{
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+h3{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center; /* Alinha horizontalmente no centro */
+    align-items: center; /* Alinha verticalmente no centro */
+    color: #fff;
+    letter-spacing: 2%;
+    font-size: 60%;
+    height: 100%; /* Certifique-se de que o contêiner pai tenha uma altura definida */
+}
+
+.background-color-Sobre img {
+    width: 100%;
+    max-width: 400px; /* Limita o tamanho máximo da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 10px; /* Adiciona cantos arredondados */;
+}
+
+.background-color-Sobre {
+    width: 100%;
+    padding: 400px;
+    color: #fff;
+}
+
+.main-sobre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Text-sobre {
+    max-width: 600px;
+    padding: 20px;
+}
+
+.Text-sobre h2 {
+    word-wrap: break-word; /* Quebra palavras longas */
+    overflow-wrap: break-word; /* Outra propriedade para quebrar palavras longas */
+    hyphens: auto; /* Adiciona hifens automaticamente quando necessário */
+    white-space: normal; /* Evita o overflow de espaços em branco */
+    max-width: 100%; /* Garante que o elemento não ultrapasse a largura do contêiner */
+}
+
+.Text-sobre h5 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.Text-sobre p {
+    font-size: 1em;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .Text-sobre {
+        width: 100%;
+    }
+
+    .Text-sobre h2 {
+        font-size: 1.5em;
+    }
+
+    .Text-sobre h5 {
+        font-size: 1em;
+    }
+
+    .Text-sobre p {
+        font-size: 0.9em;
+    }
+
+    .main-sobre {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Text-sobre {
+        text-align: center;
+    }
+
+    .Text-sobre h5 {
+        font-size: 18px;
+    }
+
+    .Text-sobre p {
+        font-size: 14px;
+    }
+}
+
+button{
+    background-color: #54bd36;
+    color: #fff;
+    text-transform: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 20px;
+    border-radius: 30px;
+    transition: .4s;
+    margin: 15px; /* Adiciona 15px de espaço em todos os lados do botão */
+}
+
+button:hover{
+    background-color: transparent;
+    border: 2px solid #54bd36;
+    cursor: pointer;
+}
+
+.Container-serviços{
+    width: 100%;
+    padding: -21px 0px;
+    max-width: 100vw; /* Garante que a largura máxima não ultrapasse a largura da viewport */
+    overflow-x: hidden; /* Impede o overflow horizontal */
+}
+
+.title h2{
+    color: #fff;
+    font-size: 75px;
+    word-wrap: break-word; /* Quebra palavras longas */
+    overflow-wrap: break-word; /* Outra propriedade para quebrar palavras longas */
+    hyphens: auto; /* Adiciona hifens automaticamente quando necessário */
+    white-space: normal; /* Evita o overflow de espaços em branco */
+    max-width: 100%; /* Garante que o elemento não ultrapasse a largura do contêiner */
+}
+
+.title h2{
+    color: #fff;
+    font-size: 75px;
+    word-wrap: break-word; /* Quebra palavras longas */
+    overflow-wrap: break-word; /* Outra propriedade para quebrar palavras longas */
+    hyphens: auto; /* Adiciona hifens automaticamente quando necessário */
+    white-space: normal; /* Evita o overflow de espaços em branco */
+    max-width: 100%; /* Garante que o elemento não ultrapasse a largura do contêiner */
+}
+
+.Caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    flex-wrap: wrap;
+}
+
+.Card{
+    background: #191919;
+    height: 79%;
+    width: 75%;
+    border-radius: 20px;
+    margin: auto;
+    position: center;
+    overflow: hidden;
+    text-align:  center;
+}
+
+.Card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: white;
+}
+
+h5{
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 20px;
+text-align: center; /* Align h5 elements to the center */
+}
+
+.T3{
+    padding-top: 20px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.Paragrafo-button{
+    color: #fff;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.Paragrafo-button button{
+    margin-top: 25px;
+}
+
+/* Estilos existentes */
+
+
+.main-sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.Text-sobre img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .main-sobre {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Text-sobre {
+        text-align: center;
+    }
+
+    .Text-sobre h5 {
+        font-size: 18px;
+    }
+
+    .Text-sobre p {
+        font-size: 14px;
+    }
+}

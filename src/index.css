@@ -1,0 +1,11 @@
+html, body {
+  overflow-x: hidden; /* Impede o overflow horizontal */
+  margin: 0; /* Remove as margens padrão */
+  padding: 0; /* Remove os paddings padrão */
+  background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,95 @@
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer h6 {
+    font-size: 35px;
+    color: #fff;
+}
+
+footer p {
+    color: #fff;
+    font-size: 15px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    margin-top: 15px;
+    letter-spacing: 12px;
+    line-height: 23px;
+}
+
+.Redes-sociais {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Redes-sociais a {
+    width: 45px;
+    height: 45px;
+    padding: 15px;
+    border-radius: 50%;
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.Redes-sociais a:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 9px #FFF, 0 0 10px #FFF, 0 0 11px #FFF;
+}
+
+/* Specific Styles for each Social Media Button */
+.linkedin {
+    background-color: #0077B5;
+}
+
+.instagram {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    background-size: 100% 100%;
+}
+
+.github {
+    background-color: #191919;
+}
+
+.behance {
+    background-color: #3E1E68;
+}
+
+.end {
+    color: #f9004d;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .Redes-sociais {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Redes-sociais a {
+        margin: 10px;
+    }
+
+    .end {
+        font-size: 14px;
+    }
+}
